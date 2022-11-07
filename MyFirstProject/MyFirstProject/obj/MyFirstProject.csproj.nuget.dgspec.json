@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_C#\\project\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj": {}
+    "C:\\Users\\Akash.Verma\\Desktop\\GitDemo\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj": {}
   },
   "projects": {
-    "C:\\_C#\\project\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj": {
+    "C:\\Users\\Akash.Verma\\Desktop\\GitDemo\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_C#\\project\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+        "projectUniqueName": "C:\\Users\\Akash.Verma\\Desktop\\GitDemo\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
         "projectName": "MyFirstProject",
-        "projectPath": "C:\\_C#\\project\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "C:\\_C#\\project\\MyFirstProject\\MyFirstProject\\obj\\",
+        "projectPath": "C:\\Users\\Akash.Verma\\Desktop\\GitDemo\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+        "packagesPath": "C:\\Users\\Akash.Verma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akash.Verma\\Desktop\\GitDemo\\MyFirstProject\\MyFirstProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Akash.Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dealersocket.jfrog.io/dealersocket/api/nuget/nuget": {},
+          "https://nuget.dealersocket.engineering/api/odata": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -57,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

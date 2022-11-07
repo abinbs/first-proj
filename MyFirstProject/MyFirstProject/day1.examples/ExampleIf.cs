@@ -10,7 +10,7 @@ namespace MyFirstProject.day1.examples
     {
         static void Main()
         {
-            int x = 10;
+            int x = 102;
             int y = 20;
 
             if (x < y)
