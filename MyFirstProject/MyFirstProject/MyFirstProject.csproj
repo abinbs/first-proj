@@ -1,0 +1,117 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="day1.examples\ExampleAndOr.cs" />
+    <Compile Remove="day1.examples\ExampleArray.cs" />
+    <Compile Remove="day1.examples\ExampleDoWhile.cs" />
+    <Compile Remove="day1.examples\ExampleFor.cs" />
+    <Compile Remove="day1.examples\ExampleIf.cs" />
+    <Compile Remove="day1.examples\ExampleString.cs" />
+    <Compile Remove="day1.examples\ExampleSwitchCase.cs" />
+    <Compile Remove="day1.examples\ExampleWhile.cs" />
+    <Compile Remove="day1.exercises\ExerciseA.cs" />
+    <Compile Remove="day1.exercises\ExerciseB.cs" />
+    <Compile Remove="day1.exercises\ExerciseC.cs" />
+    <Compile Remove="day2.classandobject\Box.cs" />
+    <Compile Remove="day2.classandobject\Employee.cs" />
+    <Compile Remove="day2.classandobject\TestBox.cs" />
+    <Compile Remove="day2.classandobject\TestEmployee.cs" />
+    <Compile Remove="day2.constructor\SmallBox.cs" />
+    <Compile Remove="day2.constructor\TestSmallBox.cs" />
+    <Compile Remove="day2.encapsulation\Employee.cs" />
+    <Compile Remove="day2.encapsulation\TestEmployee.cs" />
+    <Compile Remove="day2.examples\Box.cs" />
+    <Compile Remove="day2.examples\Employee.cs" />
+    <Compile Remove="day2.examples\TestBox.cs" />
+    <Compile Remove="day2.examples\TestEmployee.cs" />
+    <Compile Remove="day2.overloading\Box.cs" />
+    <Compile Remove="day2.overloading\TestBox.cs" />
+    <Compile Remove="day3.abstractclasses\CircleContainer.cs" />
+    <Compile Remove="day3.abstractclasses\Container.cs" />
+    <Compile Remove="day3.abstractclasses\SquareContainer.cs" />
+    <Compile Remove="day3.abstractclasses\TestContainer.cs" />
+    <Compile Remove="day3.inheritance\BigBox.cs" />
+    <Compile Remove="day3.inheritance\Box.cs" />
+    <Compile Remove="day3.inheritance\TestBox.cs" />
+    <Compile Remove="day3.interfaceexample\Excel.cs" />
+    <Compile Remove="day3.interfaceexample\Office.cs" />
+    <Compile Remove="day3.interfaceexample\TestOffice.cs" />
+    <Compile Remove="day3.interfaceexample\Word.cs" />
+    <Compile Remove="day3.overriding\Employee.cs" />
+    <Compile Remove="day3.overriding\PartTimeEmployees.cs" />
+    <Compile Remove="day3.overriding\XYZCompany.cs" />
+    <Compile Remove="day3.sampleproject\Department.cs" />
+    <Compile Remove="day3.sampleproject\Employee.cs" />
+    <Compile Remove="day3.sampleproject\XYZCompany.cs" />
+    <Compile Remove="day4.basekeyword\Cube.cs" />
+    <Compile Remove="day4.basekeyword\Square.cs" />
+    <Compile Remove="day4.basekeyword\TestArea.cs" />
+    <Compile Remove="day4.collections\ExampleHash.cs" />
+    <Compile Remove="day4.collections\ExampleList.cs" />
+    <Compile Remove="day4.exceptionhandling\ExampleException.cs" />
+    <Compile Remove="day4.exceptionhandling\TeamA.cs" />
+    <Compile Remove="day4.exceptionhandling\TeamB.cs" />
+    <Compile Remove="day4.statickeyword\ExampleStatic.cs" />
+    <Compile Remove="day4.statickeyword\TestStatic.cs" />
+    <Compile Remove="day4.varkeyword\VarExample.cs" />
+    <Compile Remove="day5.delegateex\TestDelegate.cs" />
+    <Compile Remove="day5.enumeration\EnumExample.cs" />
+    <Compile Remove="day5.extensionexample\ExtensionDemo.cs" />
+    <Compile Remove="day5.extensionexample\ExtensionExample.cs" />
+    <Compile Remove="day5.linq\Employee.cs" />
+    <Compile Remove="day5.linq\LinqExample.cs" />
+    <Compile Remove="day5.linq\LinqJoinDemo.cs" />
+    <Compile Remove="day5.linq\Salary.cs" />
+    <Compile Remove="day5.linq\Temp.cs" />
+    <Compile Remove="day5.OptionalNamedArgs\OptionalNamed.cs" />
+    <Compile Remove="day5.partialclasses\Box.cs" />
+    <Compile Remove="day5.partialclasses\Box2.cs" />
+    <Compile Remove="day5.partialclasses\TestBox.cs" />
+    <Compile Remove="day5.readwritefiles\ReadFile.cs" />
+    <Compile Remove="day5.readwritefiles\WriteFile.cs" />
+    <Compile Remove="day5.RefOutExample\RefOutDemo.cs" />
+    <Compile Remove="day5.RefOutExample\RefOutExample.cs" />
+    <Compile Remove="day5.RefOutExample\ReturnExample.cs" />
+    <Compile Remove="day5.sealedconstreadonly\A.cs" />
+    <Compile Remove="day5.sealedconstreadonly\B.cs" />
+    <Compile Remove="day5.structandclass\MyClass.cs" />
+    <Compile Remove="day5.structandclass\MyStruct.cs" />
+    <Compile Remove="day5.VariableNumArgs\MyClass.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="day1.exercises\" />
+    <Folder Include="day2.classandobject\" />
+    <Folder Include="day2.constructor\" />
+    <Folder Include="day2.encapsulation\" />
+    <Folder Include="day2.examples\" />
+    <Folder Include="day2.overloading\" />
+    <Folder Include="day3.abstractclasses\" />
+    <Folder Include="day3.inheritance\" />
+    <Folder Include="day3.interfaceexample\" />
+    <Folder Include="day3.overriding\" />
+    <Folder Include="day3.sampleproject\" />
+    <Folder Include="day4.basekeyword\" />
+    <Folder Include="day4.collections\" />
+    <Folder Include="day4.exceptionhandling\" />
+    <Folder Include="day4.statickeyword\" />
+    <Folder Include="day4.varkeyword\" />
+    <Folder Include="day5.delegateex\" />
+    <Folder Include="day5.enumeration\" />
+    <Folder Include="day5.extensionexample\" />
+    <Folder Include="day5.linq\" />
+    <Folder Include="day5.OptionalNamedArgs\" />
+    <Folder Include="day5.partialclasses\" />
+    <Folder Include="day5.readwritefiles\" />
+    <Folder Include="day5.RefOutExample\" />
+    <Folder Include="day5.sealedconstreadonly\" />
+    <Folder Include="day5.structandclass\" />
+    <Folder Include="day5.VariableNumArgs\" />
+  </ItemGroup>
+
+</Project>
